@@ -20,8 +20,8 @@ public class Level1 {
         }
 
         StringBuilder strBld = new StringBuilder();
-        for (int i = 0; i < ma.length; i++) {
-            strBld.append(ma[i]);
+        for (int j : ma) {
+            strBld.append(j);
         }
 
         return strBld.toString();
